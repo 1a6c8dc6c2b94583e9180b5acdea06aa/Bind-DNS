@@ -1,3 +1,4 @@
+#
 include "/etc/named.rfc1912.zones";
 include "/etc/named.root.key";
 
