@@ -1,0 +1,18 @@
+$TTL    86400
+
+@               IN      SOA     localhost. root.localhost. (
+                                    2015101000    ; Serial
+                                    86400         ; Refresh
+                                    3600          ; Retry
+                                    604800        ; Expire
+                                    7200 )        ; Negative Cache TTL
+
+@               IN      NS      localhost.
+
+@		IN	A	10.8.8.2
+dhcp            IN      A       10.8.8.2
+dns             IN      A       10.8.8.2
+ntp		IN	A	10.8.8.2
+puppet          IN      A       10.8.8.2
+smtp            IN      A       10.8.8.2
+spacewalk       IN      A       10.8.8.2
