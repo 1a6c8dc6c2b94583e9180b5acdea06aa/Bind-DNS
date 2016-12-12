@@ -62,9 +62,9 @@ logging {
 };
 
 # Internal zone definitions
-zone "hl.local" {
+zone "handler.local" {
         type master;
-        file "/etc/named/db.hl.local";
+        file "/etc/named/db.handler.local";
         allow-update { none; };
 };
 
